@@ -51,6 +51,24 @@ I per últim reiniciem el MariaDB
 ### Creacio de base de dades
 
 
+El primer a fer és entrar a MariaDB i després crear la base de dades amb les següents comandes
+
+`sudo mysql -u root -p`
+
+![captura](
+
+`CREATE DATABASE owncloud;`
+
+![captura](
+
+Després crearem un usuari que és dirà "ownclouduser" i la seva contrasenya serà "Admin2022@"
+
+`CREATE USER 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin2022@';`
+![captura](
+
+
+
+
 
 
 
