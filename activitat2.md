@@ -7,7 +7,6 @@
 * Creacio de base de dades
 * Instal·lació de PHP i els moduls necesaris
 * Instal·lació de Ownclaud
-* Configuracio de Apache
 
 
 ### Instalacio de Apache
@@ -34,6 +33,22 @@ Després d'instal·lar MariaDB haurem de configurar-la
 `sudo mysql_secure_installation`
 ![captura](
 
+El primer que ens demanarà serà posar una contrasenya per a l'usuari "root" en el posaré "Admin2022@"
+i ens preguntarà si volem canviar el socket d'autentificació pressionem enter, ja que és l'opcio predeterminada i li donem que sí també a canviar la contrasenya de root
+
+![captura](
+
+Ens preguntarà altres cises com si volem esborrar els usuaris anònims o si volem desactivar que puguin entrar en mode root de forma remota polsarem enter a tot menys al dubte del root que donarem no.
+
+![captura](
+
+I per últim reiniciem el MariaDB
+
+`sudo systemctl restart mariadb.service` o també podem usar `sudo service mariadb.service restart`
+
+![captura](
+
+### Creacio de base de dades
 
 
 
