@@ -68,7 +68,7 @@ Després crearem un usuari que és dirà "ownclouduser" i la seva contrasenya se
 
 Li haurem de donar accés a la base de dades a l'usuari que acabem de crear
 
-`GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin2022@' WITH GRANT OPTION;
+`GRANT ALL ON owncloud.* TO 'ownclouduser'@'localhost' IDENTIFIED BY 'Admin2022@' WITH GRANT OPTION;`
 
 ![captura](
 
