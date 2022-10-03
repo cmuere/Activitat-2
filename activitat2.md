@@ -129,11 +129,14 @@ sudo mv owncloud /var/www/html/owncloud/`
 
 Hem de canviar el propietari perquè el pugui usar l'Apache
 
-`sudo chown -R www-data:www-data /var/www/html/owncloud/
-sudo chmod -R 755 /var/www/html/owncloud/`
+`sudo chown -R www-data:www-data /var/www/html/owncloud/`
+`sudo chmod -R 755 /var/www/html/owncloud/`
 ![image](activitat2-25.png)
 
 ### Configurar Apache
+
+El primer a fer és configurar el següent arxiu amb gedit
+`sudo nano /etc/apache2/sites-available/owncloud.conf`
 
 
 
