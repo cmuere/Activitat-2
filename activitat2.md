@@ -7,6 +7,7 @@
 * Creacio de base de dades
 * Instal·lació de PHP i els moduls necesaris
 * Instal·lació de Ownclaud
+* Configurar Apache
 
 
 ### Instalacio de Apache
@@ -115,3 +116,24 @@ Després de la instal·lació tocaria editar el fitxer php.ini
 ![image](activitat2-22.png)
 * date.timezone = Europe/Madrid
 ![image](activitat2-23.png)
+
+### Instal·lació de Ownclaud
+
+Descarreguem l'última versió d'owncloud, descomprimim els fitxers i movem els arxius.
+
+`cd /tmp && wget https://download.owncloud.com/server/stable/owncloud-complete-latest.zip
+unzip owncloud-complete-latest.zip
+sudo mv owncloud /var/www/html/owncloud/`
+
+![image](activitat2-24.png)
+
+Hem de canviar el propietari perquè el pugui usar l'Apache
+
+`sudo chown -R www-data:www-data /var/www/html/owncloud/
+sudo chmod -R 755 /var/www/html/owncloud/`
+![image](activitat2-25.png)
+
+### Configurar Apache
+
+
+
