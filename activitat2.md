@@ -80,7 +80,33 @@ Per últim aplicarem els canvis i sortirem
 ![captura](activitat2-13.png)
 
 
+### Instal·lació de PHP i els moduls necesaris
 
+Hem s'instal·la el PHP usan les següents comandes
 
+`sudo apt-get install software-properties-common -y`
+`sudo add-apt-repository ppa:ondrej/php`
+![captura](activitat2-14.png)
+![captura](activitat2-15.png)
 
+Després haurem d'actualitzar el repositori
 
+`sudo apt update`
+![image](activitat2-16.png)
+
+Ara instal·larem el PHP i els seus mòduls
+
+`sudo apt install php7.4 libapache2-mod-php7.4 php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-apcu php7.4-smbclient php7.4-ldap php7.4-redis php7.4-gd php7.4-xml php7.4-intl php7.4-json php7.4-imagick php7.4-mysql php7.4-cli php7.4-mcrypt php7.4-ldap php7.4-zip php7.4-curl -y`
+
+![image](activitat2-17.png)
+
+Després de la instal·lació tocaria editar el fitxer php.ini
+
+`sudo gedit /etc/php/7.4/apach2/php.ini`
+
+![image](activitat2-18.png)
+![image](activitat2-19.png)
+![image](activitat2-20.png)
+![image](activitat2-21.png)
+![image](activitat2-22.png)
+![image](activitat2-23.png)
