@@ -103,10 +103,15 @@ Ara instal·larem el PHP i els seus mòduls
 Després de la instal·lació tocaria editar el fitxer php.ini
 
 `sudo gedit /etc/php/7.4/apach2/php.ini`
-
+* file_uploads = On
 ![image](activitat2-18.png)
+* allow_url_fopen = On
 ![image](activitat2-19.png)
+* memory_limit = 256M
 ![image](activitat2-20.png)
+* upload_max_filesize = 100M
 ![image](activitat2-21.png)
+* display_errors = Off
 ![image](activitat2-22.png)
+* date.timezone = Europe/Madrid
 ![image](activitat2-23.png)
