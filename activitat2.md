@@ -138,5 +138,13 @@ Hem de canviar el propietari perquè el pugui usar l'Apache
 El primer a fer és configurar el següent arxiu amb gedit
 `sudo nano /etc/apache2/sites-available/owncloud.conf`
 
+![image](https://user-images.githubusercontent.com/114423396/193636442-3969ff0c-92ef-40f9-81b3-689e736b9b59.png)
+ 
+![image](activitat2-26.png)
+
+Habilitem l'owncloud i el mòdul rewrite i per últim reiniciem l'Apache
+
+![image](activitat2-27.png)
+
 
 
