@@ -147,4 +147,12 @@ Habilitem l'owncloud i el mòdul rewrite i per últim reiniciem l'Apache
 ![image](activitat2-27.png)
 
 
+#### Què fa la comanda a2ensite?
 
+sudo a2ensite — Proporciona una llista de fitxers de llocs que podeu habilitar.
+
+##### I la comando a2dissite?
+
+sudo a2dissite — Proporciona una llista de fitxers de llocs que podeu desactivar.
+
+#### 
